@@ -14,6 +14,9 @@ and the other plebers, `npm install -g memefy`
 var memefy = require('memefy')
 console.log(memefy.alternating('i love memes'))
 ```
+```
+console.log('yes i took over strings muahahaha'.stoz)
+```
 
 ## meMES
 tbh idk why i named these memes as such i doubt they're even called these.
