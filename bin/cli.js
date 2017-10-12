@@ -1,6 +1,6 @@
-var memefy = require('../lib/memefy')
-var commander = require('commander')
-var pkg = require('../package.json')
+const memefy = require('../lib/memefy')
+const commander = require('commander')
+const pkg = require('../package.json')
 
 commander
   .version(pkg.version)
