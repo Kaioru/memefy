@@ -6,17 +6,23 @@ Sometimes you want to meme and you're too lazy and you just feel like creating t
 ```
 memefy alternating "i love memes"
 ```
+for you mac memers, `brew install kaioru/tap/memefy`
+
+and the other plebers, `npm install -g memefy`
 ### Using JavaScript
 ```
 var memefy = require('memefy')
 console.log(memefy.alternating('i love memes'))
+```
+```
+console.log('yes i took over strings muahahaha'.stoz)
 ```
 
 ## meMES
 tbh idk why i named these memes as such i doubt they're even called these.
 * alternating
 * alternating2
-* sto
+* stoz
 * ccfy
 * escalate
 * leet
