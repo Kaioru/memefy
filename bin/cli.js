@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const memefy = require('../lib/memefy')
 const commander = require('commander')
 const pkg = require('../package.json')
