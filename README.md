@@ -6,7 +6,7 @@ Sometimes you want to meme and you're too lazy and you just feel like creating t
 ```
 memefy alternating "i love memes"
 ```
-For you mac memers, `brew install kaioru/tap/memefy`
+for you mac memers, `brew install kaioru/tap/memefy`
 
 and the other plebers, `npm install -g memefy`
 ### Using JavaScript
