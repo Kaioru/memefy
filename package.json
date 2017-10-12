@@ -2,9 +2,9 @@
   "name": "memefy",
   "version": "1.0.0",
   "description": "pronounced as me me fy. yes really. dont laugh.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "lib/index.js",
+  "bin": {
+    "memefy": "bin/cli.js"
   },
   "repository": {
     "type": "git",
