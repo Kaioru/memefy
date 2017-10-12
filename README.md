@@ -19,7 +19,7 @@ console.log(memefy.alternating('i love memes'))
 tbh idk why i named these memes as such i doubt they're even called these.
 * alternating
 * alternating2
-* sto
+* stoz
 * ccfy
 * escalate
 * leet
