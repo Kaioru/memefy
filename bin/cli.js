@@ -7,12 +7,13 @@ const pkg = require('../package.json')
 commander
   .version(pkg.version)
 
-for (var transformer in memefy.transformers) {
-  commander.command(`${transformer} <text>`).action(text => console.log(memefy[transformer](text)))
-}
-for (var map in memefy.maps) {
-  commander.command(`${map} <text>`).action(text => console.log(memefy[map](text)))
-}
+Object.keys(memefy.transformers).forEach(function(key) {
+  commander.command(`${key} <text>`).action(text => console.log(memefy[key](text)))
+})
+
+Object.keys(memefy.maps).forEach(function(key) {
+  commander.command(`${key} <text>`).action(text => console.log(memefy[key](text)))
+})
 
 if (!process.argv.slice(2).length) {
   commander.outputHelp();
