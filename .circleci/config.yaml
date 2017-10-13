@@ -24,5 +24,8 @@ jobs:
     steps:
       - checkout
       - run:
+          name:        Install tape
+          command:     'sudo npm install -g tape'
+      - run:
           name:        Test
           command:     npm test

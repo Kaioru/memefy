@@ -7,7 +7,7 @@
     "memefy": "bin/cli.js"
   },
   "scripts": {
-    "test": "node lib/**/*spec.js"
+    "test": "tape lib/**/*.spec.js"
   },
   "repository": {
     "type": "git",
