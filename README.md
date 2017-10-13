@@ -24,3 +24,10 @@ tbh idk why i named these memes as such i doubt they're even called these.
 * escalate
 * leet
 * spaceout
+
+## c o n t r i b u t i n g
+want to help a greater good? want a direction in life?
+
+you've come to the right place.
+
+feel free to pr and contribute your memes.
