@@ -1,0 +1,31 @@
+version:               2
+jobs:
+  build:
+    working_directory: ~/memefy
+    docker:
+      - image:         circleci/node:4.8.2
+    steps:
+      - checkout
+      - run:
+          name:        Update npm
+          command:     'sudo npm install -g npm@latest'
+      - restore_cache:
+          key:         dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name:        Install dependencies
+          command:     npm install --dev
+      - save_cache:
+          key:         dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+  test:
+    docker:
+      - image:         circleci/node:4.8.2
+    steps:
+      - checkout
+      - run:
+          name:        Install tape
+          command:     'sudo npm install -g tape'
+      - run:
+          name:        Test
+          command:     npm test
