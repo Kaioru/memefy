@@ -24,6 +24,10 @@
     "leet": "^1.3.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.11",
     "tape": "^4.8.0"
   }
 }
