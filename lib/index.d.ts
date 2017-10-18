@@ -1,11 +1,11 @@
 declare namespace Memefy {
-    function alternating(word: string): void;
-    function alternating2(word: string): void;
-    function stoz(word: string): void;
-    function ccfy(word: string): void;
-    function escalate(word: string): void;
-    function leet(word: string): void;
-    function spaceout(word: string): void;
+    function alternating(word: string): string;
+    function alternating2(word: string): string;
+    function stoz(word: string): string;
+    function ccfy(word: string): string;
+    function escalate(word: string): string;
+    function leet(word: string): string;
+    function spaceout(word: string): string;
 }
 
 export = Memefy;
