@@ -1,5 +1,5 @@
 # memefy.js [![npm version](https://badge.fury.io/js/memefy.svg)](https://badge.fury.io/js/memefy) [![CircleCI](https://circleci.com/gh/Kaioru/memefy.js.svg?style=svg)](https://circleci.com/gh/Kaioru/memefy.js)
-have you ever wanted to meme but you get too lazy? transcend into a higher being?
+have you ever wanted to transcend into a higher being?
 
 introducing **memefy.js** *(pronounced me-me-fy jay-ass)*
 
