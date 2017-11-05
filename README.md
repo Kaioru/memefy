@@ -9,10 +9,21 @@ memefy alternating "i love memes"
 for you mac memers, `brew install kaioru/tap/memefy`
 
 and the other plebers, `npm install -g memefy`
-### Using JavaScript
+### Using JavaScript (Server)
 ```
 var memefy = require('memefy')
 console.log(memefy.alternating('i love memes'))
+```
+### Using JavaScript (Client)
+download a release of memefy.js [here](https://github.com/Kaioru/memefy.js/releases).
+
+and then add a script tag to your html like so:
+```
+<script src="memefy.js"></script>
+```
+now you can meme on your dank webpages!!1!one
+```
+memefy.spaceout('aesthetic')
 ```
 
 ## meMES
