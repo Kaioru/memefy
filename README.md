@@ -1,7 +1,15 @@
 # memefy.js [![npm version](https://badge.fury.io/js/memefy.svg)](https://badge.fury.io/js/memefy) [![CircleCI](https://circleci.com/gh/Kaioru/memefy.js.svg?style=svg)](https://circleci.com/gh/Kaioru/memefy.js)
-Sometimes you want to meme and you're too lazy and you just feel like creating this weird thing that makes it easier to meme like sometimes I don't know what my life goals are but I just know I want to meme like the big boys right now.
+have you ever wanted to meme but you get too lazy?
 
-## hOw tO MeMe
+have you ever wanted to transcend into a higher being?
+
+have you ever wanted to be the edgiest person evar?
+
+introducing memefy.js *(pronounced me-me-fy jay-ass)*
+
+the solution to all your memeing needs.
+
+## hOw To MeMe
 ### Using the Command Line
 ```
 memefy alternating "i love memes"
