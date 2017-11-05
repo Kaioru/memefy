@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "description": "pronounced as me me fy. yes really. dont laugh.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "bin": {
     "memefy": "bin/cli.js"
   },
