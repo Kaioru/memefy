@@ -1,18 +1,29 @@
 const gulp = require('gulp');
-const browserify = require('gulp-browserify');
+const browserify = require('browserify');
+const sourcemaps = require('gulp-sourcemaps');
 const rename = require("gulp-rename");
+const source = require('vinyl-source-stream');
+const buffer = require('vinyl-buffer');
 const pkg = require('./package.json');
 
-gulp.task('build', () =>
-  gulp.src(pkg.main)
-    .pipe(browserify({
-    insertGlobals: true,
+gulp.task('build', () => {
+  var b = browserify({
+    standalone: 'memefy',
+    entries: [pkg.main],
     debug: !gulp.env.production
-  }))
-  .pipe(rename(function(path) {
-    path.basename = pkg.name;
-  }))
-  .pipe(gulp.dest('dist'))
-);
+  });
+
+  return b.bundle()
+    .pipe(source(pkg.main))
+    .pipe(buffer())
+    .pipe(sourcemaps.init({
+      loadMaps: true
+    }))
+    .pipe(rename(function(path) {
+      path.basename = pkg.name;
+    }))
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest('./dist'));
+});
 
 gulp.task('default', ['build']);
