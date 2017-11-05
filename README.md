@@ -17,13 +17,15 @@ console.log(memefy.alternating('i love memes'))
 
 ## meMES
 tbh idk why i named these memes as such i doubt they're even called these.
-* alternating
-* alternating2
 * stoz
 * ccfy
-* escalate
-* leet
 * spaceout
+* escalate
+* exaggerate
+* leet
+* hashtag
+* alternating
+* alternating2
 
 ## c o n t r i b u t i n g
 want to help a greater good? want a direction in life?
