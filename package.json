@@ -1,6 +1,6 @@
 {
   "name": "memefy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "pronounced as me me fy. yes really. dont laugh.",
   "main": "lib/index.js",
   "bin": {
