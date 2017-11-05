@@ -10,6 +10,11 @@ for you mac memers, `brew install kaioru/tap/memefy`
 
 and the other plebers, `npm install -g memefy`
 ### Using JavaScript (Server)
+install a release of memefy.js with npm like so:
+```
+npm install --save memefy
+```
+now go start the first dankpocalypse and take over the world@@1!!1
 ```
 var memefy = require('memefy')
 console.log(memefy.alternating('i love memes'))
