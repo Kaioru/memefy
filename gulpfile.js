@@ -23,7 +23,8 @@ gulp.task('build', () => {
       path.basename = pkg.name;
     }))
     .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./docs'));
 });
 
 gulp.task('default', ['build']);
