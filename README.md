@@ -6,6 +6,8 @@ introducing **memefy.js** *(pronounced me-me-fy jay-ass)*
 the solution to all your memeing needs.
 
 ## hOw To MeMe
+### Using the Webpage
+head over to [kaioru.co/memefy.js](http://kaioru.co/memefy.js) and start danking your undank memes.
 ### Using the Command Line
 ```
 memefy alternating "i love memes"
