@@ -8,6 +8,8 @@ the solution to all your memeing needs.
 ## hOw To MeMe
 ### Using the Webpage
 head over to [kaioru.co/memefy.js](http://kaioru.co/memefy.js) and start danking your undank memes.
+### Using Atom
+check out [atom-memefy](https://github.com/Kaioru/atom-memefy) for your lit atom memes.
 ### Using the Command Line
 ```
 memefy alternating "i love memes"
