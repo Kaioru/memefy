@@ -43,6 +43,7 @@ memefy.spaceout('aesthetic')
 * stoz
 * ccfy
 * spaceout
+* spacierout
 * escalate
 * exaggerate
 * leet
