@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kaioru/memefy.js.git"
+    "url": "git+https://github.com/Kaioru/memefy.git"
   },
   "author": "Kaioru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kaioru/memefy.js/issues"
+    "url": "https://github.com/Kaioru/memefy/issues"
   },
-  "homepage": "https://github.com/Kaioru/memefy.js#readme",
+  "homepage": "https://github.com/Kaioru/memefy#readme",
   "dependencies": {
     "browserify": "^14.5.0",
     "commander": "^2.11.0",
