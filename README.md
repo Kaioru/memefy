@@ -18,7 +18,7 @@ check out [atom-memefy](https://github.com/Kaioru/atom-memefy) for your lit atom
 
 ### Using the Command Line
 
-```
+```bash
 memefy alternating "i love memes"
 ```
 
@@ -30,15 +30,15 @@ and the other plebers, `npm install -g memefy`
 
 install a release of memefy.js with npm like so:
 
-```
+```bash
 npm install --save memefy
 ```
 
 now go start the first dankpocalypse and take over the world@@1!!1
 
-```
-var memefy = require('memefy')
-console.log(memefy.alternating('i love memes'))
+```javascript
+var memefy = require("memefy");
+console.log(memefy.alternating("i love memes"));
 ```
 
 ### Using JavaScript (Client)
@@ -47,14 +47,14 @@ download a release of memefy.js [here](https://github.com/Kaioru/memefy.js/relea
 
 and then add a script tag to your html like so:
 
-```
+```html
 <script src="memefy.js"></script>
 ```
 
 now you can meme on your dank webpages!!1!one
 
-```
-memefy.spaceout('aesthetic')
+```javascript
+memefy.spaceout("aesthetic");
 ```
 
 ## meMES
