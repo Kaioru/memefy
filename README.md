@@ -58,18 +58,18 @@ memefy.spaceout("aesthetic");
 ```
 
 ## meMES
+* stoz
+* ccfy
+* spaceout
+* spacierout
+* escalate
+* exaggerate
+* leet
+* hashtag
+* alternating
+* alternating2
 
-- stoz
-- ccfy
-- spaceout
-- escalate
-- exaggerate
-- leet
-- hashtag
-- alternating
-- alternating2
-
-_look 'ma! all these dank memes i can use!1!!_
+*look 'ma! all these dank memes i can use!1!!*
 
 ## c o n t r i b u t i n g
 
